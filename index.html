@@ -17,204 +17,190 @@
     
     <div id="main-content" style="display: none;"></div>    
 
-    <div class="navv">
-        <div class="logo-container">
-            <img src="logos/Adobe Express - file.png" class="anjana-logo" alt="a-logo">
-            <span class="anjana-name">Anjana</span>
+    <header>
+        <div class="navv">
+            <div class="logo-container">
+                <img src="logos/Adobe Express - file.png" class="anjana-logo" alt="a-logo">
+                <span class="anjana-name">Anjana</span>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#home" onclick="scrollToSection('slider-container')">Home</a></li>
+                    <li><a href="#about" onclick="scrollToSection('about-section')">About Us</a></li>
+                    <li><a href="#services" onclick="scrollToSection('container-b')">Our Services</a></li>
+                    <li><a href="#portfolio" onclick="scrollToSection('container-c')">Portfolio</a></li>
+                    <li><a href="#contact" onclick="scrollToSection('contact-us-section')">Contact Us</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="nav-links">
-            <ul>
-                <li><a href="#home" onclick="scrollToSection('slider-container')">Home</a></li>
-                <li><a href="#about" onclick="scrollToSection('about-section')">About Us</a></li>
-                <li><a href="#services" onclick="scrollToSection('container-b')">Our Services</a></li>
-                <li><a href="#portfolio" onclick="scrollToSection('container-c')">Portfolio</a></li>
-                <li><a href="#contact" onclick="scrollToSection('contact-us-section')">Contact Us</a></li>
-            </ul>
-        </div>
-    </div>
 
-    <div class="contact-info">
-        <h2>Arts & Digitals</h2>
-    </div>
+        <div class="contact-info">
+            <h2>Arts & Digitals</h2>
+        </div>
+    </header>
 
-    <div class="slider-container" id="home">
-        <div class="slider">
-            <div class="slide">
-                <img src="logos/sai-anjana-arts-and-digitals-kukatpally-hyderabad-printing-press-un0hyr4mal.jpg" alt="Image 1">
+    <main>
+        <div class="slider-container" id="home">
+            <div class="slider">
+                <div class="slide">
+                    <img src="logos/sai-anjana-arts-and-digitals-kukatpally-hyderabad-printing-press-un0hyr4mal.jpg" alt="Image 1">
+                </div>
+                <div class="slide">
+                    <img src="logos/IMG_20250310_225837.jpg" alt="Image 2">
+                </div>
+                <div class="slide">
+                    <img src="logos/Anjana Card front.JPG" alt="Image 3">
+                </div>
+                <div class="slide">
+                    <img src="logos/Anjana Card new B (1).jpg" alt="Image 4">
+                </div>
             </div>
-            <div class="slide">
-                <img src="logos/IMG_20250310_225837.jpg" alt="Image 2">
-            </div>
-            <div class="slide">
-                <img src="logos/Anjana Card front.JPG" alt="Image 3">
-            </div>
-            <div class="slide">
-                <img src="logos/Anjana Card new B (1).jpg" alt="Image 4">
+            <div class="dots-container">
+                <span class="dot" onclick="moveSlide(0)"></span>
+                <span class="dot" onclick="moveSlide(1)"></span>
+                <span class="dot" onclick="moveSlide(2)"></span>
+                <span class="dot" onclick="moveSlide(3)"></span>
             </div>
         </div>
-        <div class="dots-container">
-            <span class="dot" onclick="moveSlide(0)"></span>
-            <span class="dot" onclick="moveSlide(1)"></span>
-            <span class="dot" onclick="moveSlide(2)"></span>
-            <span class="dot" onclick="moveSlide(3)"></span>
-        </div>
-    </div>
 
-    <section class="about-section" id="about">
-        <div class="shaded-line-container">
-            <span class="line-text">About Us</span>
-        </div>
-        <div class="about-content">
-            <p>
-                <strong>Sai Anjana Arts & Digitals</strong>, Established in 2006, Has Been a Trusted Name in 
-                Flex Printing, LED Boards, Painting Art & Vinyl Printing.<br> We Specialize in Creating High-Quality 
-                Printing, Artistic Designs, and Customized Branding Solutions For Businesses as well as individuals.<br> 
-                From Eye-Catching Banners to intricate Wall Paintings and Durable Vinyl Printing, We Bring 
-                Creativity and Precision to Every Project.<br> Our Commitment to Excellence & Customer 
-                Satisfaction Has Helped Us Build a Strong Reputation Over the Years...
-            </p>
-        </div>
-    </section>
-    <div class="container">
-        <div class="image-container">
-            <img src="logos/Website Design card Nanna.PNG" alt="Image 1">
-        </div>
-        <div class="text-container">
-            <h1>Founder & CEO</h1>
-            <h2>K.J.Chary</h2>
-        </div>
-    </div>
-    <div class="container-a">
-        <div class="shaded-line-container">
-            <span class="line-text">Our Team</span>
-        </div>
-        <div class="team-members">
-            <div class="container-image1">
-                <img src="logos/Chiranjeevi copy.PNG" alt="Team Member 1">
+        <section class="about-section" id="about">
+            <div class="shaded-line-container">
+                <span class="line-text">About Us</span>
             </div>
-            <div class="container-image1">
-                <img src="logos/Chicha .PNG" alt="Team Member 2">
+            <div class="about-content">
+                <p>
+                    <strong>Sai Anjana Arts & Digitals</strong>, Established in 2006, Has Been a Trusted Name in 
+                    Flex Printing, LED Boards, Painting Art & Vinyl Printing.<br> We Specialize in Creating High-Quality 
+                    Printing, Artistic Designs, and Customized Branding Solutions For Businesses as well as individuals.<br> 
+                    From Eye-Catching Banners to intricate Wall Paintings and Durable Vinyl Printing, We Bring 
+                    Creativity and Precision to Every Project.<br> Our Commitment to Excellence & Customer 
+                    Satisfaction Has Helped Us Build a Strong Reputation Over the Years...
+                </p>
             </div>
-            <div class="container-image1">
-                <img src="logos/Malli copy.PNG" alt="Team Member 3">
-            </div>
-        </div>
-    </div>
+        </section>
 
-    <div class="container-b" id="services">
-        <div class="shaded-line-container">
-            <span class="line-text">Our Services</span>
-        </div>
-        <div class="services-content">
-            <div class="service-item" onclick="showServiceModal('Flex Banners')">🎯 Flex Banners</div>
-            <div class="service-item" onclick="showServiceModal('LED Sign Boards')">✨ LED Sign Boards</div>
-            <div class="service-item" onclick="showServiceModal('Flex Boards')">🎯 Flex Boards</div>
-            <div class="service-item" onclick="showServiceModal('Vinyl Printing')">🎯 Vinyl Printing</div>
-            <div class="service-item" onclick="showServiceModal('Glow Sign Boards')">🔆 Glow Sign Boards</div>
-            <div class="service-item" onclick="showServiceModal('One Way Vision')">🎯 One Way Vision</div>
-            <div class="service-item" onclick="showServiceModal('ACP Works')">🎯 ACP Works</div>
-            <div class="service-item" onclick="showServiceModal('Visiting Cards')">🎯 Visiting Cards</div>
-            <div class="service-item" onclick="showServiceModal('School Cartoon Painting')">🖌️ School Cartoon Painting</div>
-        </div>
-        <div id="serviceModal" class="modal">
-            <div class="modal-content">
-                <h2 id="selectedService"></h2>
-                <button class="btn-service" onclick="showContactModal()">I Want This Service</button>
-                <button class="btn-close" onclick="closeModal('serviceModal')">Close</button>
+        <div class="container">
+            <div class="image-container">
+                <img src="logos/Website Design card Nanna.PNG" alt="Image 1">
+            </div>
+            <div class="text-container">
+                <h1>Founder & CEO</h1>
+                <h2>K.J.Chary</h2>
             </div>
         </div>
-        <div id="contactModal" class="modal">
-            <div class="modal-content">
-                <h2>Contact Us:</h2>
-                <button class="btn-call" onclick="callUs()">📞 Via Call</button>
-                <button class="btn-whatsapp" onclick="whatsappUs()">💬 Via WhatsApp</button>
-                <button class="btn-close" onclick="closeModal('contactModal')">Close</button>
-            </div>
-        </div>
-    </div>
 
-    <div class="container-c" id="portfolio">
-        <div class="shaded-line-container">
-            <span class="line-text">Portfolio</span>
+        <div class="container-a">
+            <div class="shaded-line-container">
+                <span class="line-text">Our Team</span>
+            </div>
+            <div class="team-members">
+                <div class="container-image1">
+                    <img src="logos/Chiranjeevi copy.PNG" alt="Team Member 1">
+                </div>
+                <div class="container-image1">
+                    <img src="logos/Chicha .PNG" alt="Team Member 2">
+                </div>
+                <div class="container-image1">
+                    <img src="logos/Malli copy.PNG" alt="Team Member 3">
+                </div>
+            </div>
         </div>
-        <section class="gallery-section lightbox-section">
-            <div class="gallery lightbox-gallery">
-                <div class="image-container2" data-lightbox>
-                    <img src="gallery/printing.jpg" alt="Flex Banners">
+
+        <div class="container-b" id="services">
+            <div class="shaded-line-container">
+                <span class="line-text">Our Services</span>
+            </div>
+            <div class="services-content">
+                <div class="service-item" onclick="showServiceModal('Flex Banners')">🎯 Flex Banners</div>
+                <div class="service-item" onclick="showServiceModal('LED Sign Boards')">✨ LED Sign Boards</div>
+                <div class="service-item" onclick="showServiceModal('Flex Boards')">🎯 Flex Boards</div>
+                <div class="service-item" onclick="showServiceModal('Vinyl Printing')">🎯 Vinyl Printing</div>
+                <div class="service-item" onclick="showServiceModal('Glow Sign Boards')">🔆 Glow Sign Boards</div>
+                <div class="service-item" onclick="showServiceModal('One Way Vision')">🎯 One Way Vision</div>
+                <div class="service-item" onclick="showServiceModal('ACP Works')">🎯 ACP Works</div>
+                <div class="service-item" onclick="showServiceModal('Visiting Cards')">🎯 Visiting Cards</div>
+                <div class="service-item" onclick="showServiceModal('School Cartoon Painting')">🖌️ School Cartoon Painting</div>
+            </div>
+        </div>
+
+        <div class="container-c" id="portfolio">
+            <div class="shaded-line-container">
+                <span class="line-text">Portfolio</span>
+            </div>
+            <section class="gallery-section lightbox-section">
+                <div class="gallery lightbox-gallery">
+                    <div class="image-container2" data-lightbox>
+                        <img src="gallery/printing.jpg" alt="Flex Banners">
+                    </div>
+                    <div class="image-container2" data-lightbox>
+                        <img src="gallery/led.jpg" alt="LED Boards">
+                    </div>
+                    <div class="image-container2" data-lightbox>
+                        <img src="gallery/led board.jpg" alt="LED Boards">
+                    </div>
+                    <div class="image-container2" data-lightbox>
+                        <img src="gallery/lighting board.jpg" alt="Glow Sign Boards">
+                    </div>
+                    <div class="image-container2" data-lightbox>
+                        <img src="gallery/traditional painting.jpg" alt="Canvas painting">
+                    </div>
+                    <div class="image-container2" data-lightbox>
+                        <img src="gallery/ganeshpainting.jpg" alt="Canvas painting">
+                    </div>
+                    <div class="image-container2" data-lightbox>
+                        <img src="gallery/man painting.jpg" alt="3D art">
+                    </div>
+                    <div class="image-container2" data-lightbox>
+                        <img src="gallery/Girafee.jpg" alt="3D painting">
+                    </div>
+                    <div class="image-container2" data-lightbox>
+                        <img src="gallery/school cartoon.jpg" alt="School cartoon painting">
+                    </div>
                 </div>
-                <div class="image-container2" data-lightbox>
-                    <img src="gallery/led.jpg" alt="LED Boards">
+            </section>
+        </div>
+
+        <section class="contact-us-section" id="contact">
+            <div class="shaded-line-container">
+                <span class="line-text">Contact Us</span>
+            </div>
+            <div class="contact-us-container">
+                <div class="map-section">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.282132609052!2d78.4086022736921!3d17.49404049972678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb917a10ca8c2f%3A0x1bbcd27e9b231dc1!2sAnjana%20Arts%20and%20Designs!5e0!3m2!1sen!2sin!4v1743849893217!5m2!1sen!2sin"
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
-                <div class="image-container2" data-lightbox>
-                    <img src="gallery/led board.jpg" alt="LED Boards">
-                </div>
-                <div class="image-container2" data-lightbox>
-                    <img src="gallery/lighting board.jpg" alt="Glow Sign Boards">
-                </div>
-                <div class="image-container2" data-lightbox>
-                    <img src="gallery/traditional painting.jpg" alt="Canvas painting">
-                </div>
-                <div class="image-container2" data-lightbox>
-                    <img src="gallery/ganeshpainting.jpg" alt="Canvas painting">
-                </div>
-                <div class="image-container2" data-lightbox>
-                    <img src="gallery/man painting.jpg" alt="3D art">
-                </div>
-                <div class="image-container2" data-lightbox>
-                    <img src="gallery/Girafee.jpg" alt="3D painting">
-                </div>
-                <div class="image-container2" data-lightbox>
-                    <img src="gallery/school cartoon.jpg" alt="School cartoon painting">
+                <div class="quote-section">
+                    <h3>Get a Quote</h3>
+                    <form id="quoteForm" onsubmit="submitQuote(event)">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="tel" name="phone" placeholder="Your Phone" required>
+                        <select name="service" required>
+                            <option value="" disabled selected>Select a Service</option>
+                            <option value="Flex Banners">Flex Banners</option>
+                            <option value="LED Sign Boards">LED Sign Boards</option>
+                            <option value="Flex Boards">Flex Boards</option>
+                            <option value="Vinyl Printing">Vinyl Printing</option>
+                            <option value="Glow Sign Boards">Glow Sign Boards</option>
+                            <option value="One Way Vision">One Way Vision</option>
+                            <option value="ACP Works">ACP Works</option>
+                            <option value="Visiting Cards">Visiting Cards</option>
+                            <option value="School Cartoon Painting">School Cartoon Painting</option>
+                        </select>
+                        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                        <button type="submit" class="btn-submit">Submit</button>
+                    </form>
                 </div>
             </div>
         </section>
-    </div>
-
-    <div id="lightbox" class="lightbox">
-        <span class="close-lightbox">×</span>
-        <img class="lightbox-content" id="lightbox-img">
-        <div id="lightbox-caption"></div>
-    </div>
-
-    <section class="contact-us-section" id="contact">
-        <div class="shaded-line-container">
-            <span class="line-text">Contact Us</span>
-        </div>
-        <div class="contact-us-container">
-            <div class="map-section">
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.282132609052!2d78.4086022736921!3d17.49404049972678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb917a10ca8c2f%3A0x1bbcd27e9b231dc1!2sAnjana%20Arts%20and%20Designs!5e0!3m2!1sen!2sin!4v1743849893217!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
-                    width="100%" 
-                    height="100%" 
-                    style="border:0;" 
-                    allowfullscreen="" 
-                    loading="lazy">
-                </iframe>
-            </div>
-            <div class="quote-section">
-                <h3>Get a Quote</h3>
-                <form id="quoteForm" onsubmit="submitQuote(event)">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <input type="tel" name="phone" placeholder="Your Phone" required>
-                    <select name="service" required>
-                        <option value="" disabled selected>Select a Service</option>
-                        <option value="Flex Banners">Flex Banners</option>
-                        <option value="LED Sign Boards">LED Sign Boards</option>
-                        <option value="Flex Boards">Flex Boards</option>
-                        <option value="Vinyl Printing">Vinyl Printing</option>
-                        <option value="Glow Sign Boards">Glow Sign Boards</option>
-                        <option value="One Way Vision">One Way Vision</option>
-                        <option value="ACP Works">ACP Works</option>
-                        <option value="Visiting Cards">Visiting Cards</option>
-                        <option value="School Cartoon Painting">School Cartoon Painting</option>
-                    </select>
-                    <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
-                    <button type="submit" class="btn-submit">Submit</button>
-                </form>
-            </div>
-        </div>
-    </section>
+    </main>
 
     <footer class="footer-section">
         <div class="footer-content">
@@ -233,6 +219,7 @@
         </div>
     </footer>
 
+    <!-- Mobile Navigation -->
     <div class="mobile-nav">
         <ul>
             <li><a href="#home" onclick="scrollToSection('slider-container')">Home</a></li>
@@ -241,6 +228,30 @@
             <li><a href="#portfolio" onclick="scrollToSection('container-c')">Portfolio</a></li>
             <li><a href="#contact" onclick="scrollToSection('contact-us-section')">Contact</a></li>
         </ul>
+    </div>
+
+    <!-- Modal Windows -->
+    <div id="serviceModal" class="modal">
+        <div class="modal-content">
+            <h2 id="selectedService"></h2>
+            <button class="btn-service" onclick="showContactModal()">I Want This Service</button>
+            <button class="btn-close" onclick="closeModal('serviceModal')">Close</button>
+        </div>
+    </div>
+    
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <h2>Contact Us:</h2>
+            <button class="btn-call" onclick="callUs()">📞 Via Call</button>
+            <button class="btn-whatsapp" onclick="whatsappUs()">💬 Via WhatsApp</button>
+            <button class="btn-close" onclick="closeModal('contactModal')">Close</button>
+        </div>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">×</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
     </div>
 
     <script src="script.js"></script>
